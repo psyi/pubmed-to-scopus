@@ -32,6 +32,7 @@
       const logoImg = document.createElement('img');
       logoImg.setAttribute('class', 'full-text provider logo');
       logoImg.setAttribute('src', 'https://raw.githubusercontent.com/psyi/pubmed-to-scopus/master/image/scopus_logo.png'); // Replace with Scopus logo URL
+      logoImg.style.width = '67%'; // Set the width to 2/3 of the original size
 
       const spanText = document.createElement('span');
       spanText.setAttribute('class', 'text');
