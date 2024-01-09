@@ -2,11 +2,14 @@
 // @name        Scopus Link for PubMed
 // @namespace   https://github.com/psyi/pubmed-to-scopus
 // @match       *://pubmed.ncbi.nlm.nih.gov/*/
+// @author      psyi
+// @license     SCU
 // @version     1.0
 // @description A userscript to add a link redirecting to Scopus on PubMed article pages.
 // @downloadURL https://github.com/psyi/pubmed-to-scopus/script/src/pubmed-to-scopus.js
 // @grant       none
 // @run-at      document-end
+// @require      https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js
 // ==/UserScript==
 
 (function () {
