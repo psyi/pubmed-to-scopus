@@ -31,7 +31,7 @@
 
       const logoImg = document.createElement('img');
       logoImg.setAttribute('class', 'full-text provider logo');
-      logoImg.setAttribute('src', 'https://github.com/psyi/pubmed-to-scopus/blob/c5c0f20d7aaf190e0daa767b1b3d0f739b7ebddb/image/scopus_logo.png'); // Replace with Scopus logo URL
+      logoImg.setAttribute('src', 'https://raw.githubusercontent.com/psyi/pubmed-to-scopus/master/image/scopus_logo.png'); // Replace with Scopus logo URL
 
       const spanText = document.createElement('span');
       spanText.setAttribute('class', 'text');
